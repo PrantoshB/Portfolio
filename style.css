@@ -1,7 +1,6 @@
-body {
+* {
   margin: 0;
-  font-family: 'Roboto', sans-serif;
-  color: #1a2236;
+  font-family: 'Poppins', sans-serif;
 }
 
 .menu-container {
@@ -38,8 +37,12 @@ body {
   margin-bottom: 0;
 }
 
+.about {
+  color: #1a2236;
+}
+
 .info-section {
-  padding: 0 16px 30px 16px;
+  padding: 30px 16px 30px 16px;
   display: flex;
   flex-direction: column;
 }
@@ -56,8 +59,129 @@ body {
 
 .bgimage {
   background-image: url(assets/image_geometry_2.svg);
-  height: 320px;
+  height: 200px;
   background-size: contain;
   background-repeat: no-repeat;
-  bottom: 0;
+}
+
+.project h1 {
+  padding: 0 0 30px 16px;
+}
+
+.work_cards {
+  width: 100%;
+  justify-content: center;
+  background-color: #1a2236;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.work_image {
+  min-width: 100%;
+  margin-top: -2px;
+}
+
+.workdetails {
+  height: 156px;
+  margin: 0;
+  padding: 5px 0 16px 20px;
+  color: white;
+  flex-direction: column;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.work_title {
+  font-size: 24px;
+  font-weight: 300;
+  padding: 0;
+  margin: 0;
+}
+
+.language_used {
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  font-size: 12px;
+  font-weight: 300;
+}
+
+.language_used li {
+  color: #1a2236;
+  background: #98dede;
+  padding: 7px 10px;
+  width: auto;
+  list-style: none;
+  text-align: center;
+  margin-right: 10px;
+}
+
+.seeproject {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  width: 57%;
+  background-color: transparent;
+  color: white;
+  font-size: 16px;
+  padding: 9px 20px;
+  border: 1px solid white;
+  margin-top: 10px;
+}
+
+.cv-btn {
+  margin-top: 20px;
+  background: black;
+  color: white;
+  font-size: 16px;
+  padding: 12px 30px;
+  width: 100%;
+  border: none;
+}
+
+#btnicon {
+  margin-left: 12px;
+}
+
+.boxinfo {
+  height: 200px;
+  color: white;
+  padding: 70px;
+  margin-top: 40px;
+}
+
+.boxinfo h3 {
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.boxinfo li {
+  margin-left: -22px;
+  font-weight: 600;
+}
+
+#languages {
+  background: #1c528a;
+  background-image: url(assets/hash.svg);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+
+#frameworks {
+  background: #e2505c;
+  background-image: url(assets/groupbox.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+
+#skills {
+  background: #febf52;
+  background-image: url(assets/ic_skills.svg);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+
+.seeproject:hover {
+  color: #1a2236;
+  background: white;
 }
