@@ -22,10 +22,10 @@ GIT
 Setup
 Open a terminal or a git bash in the desired directory and run 
 
-git clone https://github.com/PrantoshB/Portfolio.git
-cd <project-name>
-Open within an IDE
-Open with the live server
+git clone https://github.com/PrantoshB/Portfolio.git</br> 
+cd Portfolio</br> 
+Open within an IDE</br> 
+Open with the live server</br> 
 
 
 ## Author
