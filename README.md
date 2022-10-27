@@ -20,8 +20,12 @@ To get a local copy up follow these simple example steps.
 # Prerequisites
 GIT
 Setup
-Open a terminal or a git bash in the desired directory and run https://github.com/PrantoshB/Portfolio.git    
+Open a terminal or a git bash in the desired directory and run 
 
+git clone https://github.com/PrantoshB/Portfolio.git
+cd <project-name>
+Open within an IDE
+Open with the live server
 
 
 ## Author
