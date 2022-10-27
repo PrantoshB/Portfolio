@@ -37,5 +37,3 @@ Open a terminal or a git bash in the desired directory and run https://github.co
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
-
