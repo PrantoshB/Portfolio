@@ -1,10 +1,11 @@
 body {
   margin: 0;
   font-family: 'Roboto', sans-serif;
+  color: #1a2236;
 }
 
 .menu-container {
-  padding-right: 15px;
+  padding-right: 16px;
   display: inline-block;
   cursor: pointer;
 }
@@ -19,12 +20,18 @@ body {
 }
 
 .header {
+  height: 74px;
+  background-image: url(assets/image_geometry_1.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
   display: flex;
+  flex-direction: row-reverse;
   justify-content: space-between;
   align-items: center;
 }
 
 .title {
+  color: #1a2236;
   font-family: 'Playfair Display', serif;
   font-size: 50px;
   font-weight: 400;
@@ -33,6 +40,8 @@ body {
 
 .info-section {
   padding: 0 16px 30px 16px;
+  display: flex;
+  flex-direction: column;
 }
 
 .collab-btn {
@@ -45,7 +54,10 @@ body {
   border: none;
 }
 
-.info-image {
-  width: 100%;
+.bgimage {
+  background-image: url(assets/image_geometry_2.svg);
+  height: 320px;
+  background-size: contain;
+  background-repeat: no-repeat;
   bottom: 0;
 }
