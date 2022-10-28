@@ -13,6 +13,9 @@ Professional Portfolio using HTML, CSS
 - Technologies used: 
     Git, GitHub, Linters
     
+## Live Demo
+[Live Demo Link](https://prantoshb.github.io/Portfolio/)
+    
     
 ## Getting Started
 To get a local copy up follow these simple example steps.
