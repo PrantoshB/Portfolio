@@ -185,3 +185,7 @@
   color: #1a2236;
   background: white;
 }
+.lang{
+  float: left;
+  margin: 5px;
+}
