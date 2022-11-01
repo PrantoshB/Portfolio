@@ -31,7 +31,7 @@ Open within an IDE</br>
 Open with the live server</br> 
 
 
-## Author
+## Authors
 
 👤 **Prantosh Biswas**
 
@@ -39,6 +39,17 @@ Open with the live server</br>
 - Twitter: [@prantalks](https://twitter.com/prantalks)
 - LinkedIn: [Prantosh Biswas](https://linkedin.com/in/prantosh)
 
+👤 **Leehaney George**
+
+- GitHub: [@githubhandle](https://github.com/leehaney254)
+- Twitter: [@twitterhandle](https://twitter.com/Lee06785586)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/leehaney-george-0a4a51178/)
+
+👤 **Diana Geki**
+
+- GitHub: [@PrantoshB](https://github.com/DianaBeki)
+- Twitter: [@prantalks](https://github.com/DianaBeki#)
+- Instagram: [Prantosh Biswas](https://github.com/DianaBeki#)
 
 
 ## Show your support
