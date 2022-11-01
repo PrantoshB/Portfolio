@@ -2,8 +2,9 @@
   margin: 0;
   font-family: 'Poppins', sans-serif;
 }
-body{
-  background-color: #F9F9FA;
+
+body {
+  background-color: #f9f9fa;
 }
 
 .menu-container {
@@ -137,16 +138,16 @@ body{
   background: black;
   color: white;
   font-size: 16px;
-text-align: center;
-justify-content: center;
-flex-direction: row;
-display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-direction: row;
+  display: flex;
   padding: 12px 30px;
   width: 100%;
   border: none;
 }
 
-.cv-btn span{
+.cv-btn span {
   margin-left: 20px;
 }
 
@@ -192,34 +193,31 @@ display: flex;
   color: #1a2236;
   background: white;
 }
-.lang{
+
+.lang {
   float: left;
   margin: 5px;
 }
 
-footer{
+footer {
   margin-top: 30px;
   display: flex;
   flex-direction: column;
   background-size: contain;
   width: auto;
-
 }
-.contact-form{
+
+.contact-form {
   display: flex;
   flex-direction: column;
-
 }
-.footer-list{
 
+.footer-list {
   list-style: none;
   margin-left: -40px;
-  
-
 }
 
 .footer-head {
-
   height: 74px;
   background-image: url(assets/image_geometry_1.svg);
   background-repeat: no-repeat;
@@ -229,75 +227,77 @@ footer{
   justify-content: space-between;
   align-items: center;
 }
-.formbody{
+
+.formbody {
   margin-top: 50px;
   padding: 0 16px 30px 16px;
-
-
 }
-label{
-  color: #7D7C84;
+
+label {
+  color: #7d7c84;
   padding: 10px 0 0 12px;
   font-size: 10px;
 }
 
-input, label{
- resize: none;
+input,
+label {
+  resize: none;
   width: 90vw;
   display: block;
   border: none;
-
 }
 
-textarea{
+textarea {
   padding: 15px 0 30px 16px;
   resize: none;
   height: 112px;
-  border: none;
   width: 100%;
-box-sizing: border-box;
-  border: 1px solid #DFDFE0;
+  box-sizing: border-box;
+  border: 1px solid #dfdfe0;
   border-radius: 4px;
   font-family: 'Poppins', sans-serif;
 }
 
-input,textarea:focus{
+input,
+textarea:focus {
   outline: none;
-  color: #1A2236;
+  color: #1a2236;
   font-size: 14px;
+}
+
+.inputfield {
+  font-family: 'Poppins', sans-serif;
+  height: 52px;
+  overflow: hidden;
+  width: 100%;
 }
 
 .footer-list .inputfield {
   background: white;
   margin: 8px 0;
-   border: 1px solid #DFDFE0;
-   border-radius: 4px;
-   width: 100%;
- }
-
- .inputfield{
-  font-family: 'Poppins', sans-serif;
-  height: 52px;
-  overflow: hidden;
+  border: 1px solid #dfdfe0;
+  border-radius: 4px;
   width: 100%;
- }
- 
-.formbody .about{
+}
+
+.formbody .about {
   margin: 20px 0 32px 0;
 }
-.footsection{
-  background: #1A2236;
+
+.footsection {
+  background: #1a2236;
   color: white;
   padding: 32px 0;
 }
 
-.footsection span{
-  color: #92DCDC;
+.footsection span {
+  color: #92dcdc;
   display: flex;
   align-items: center;
   margin-left: 15px;
 }
-.socialicons{
+
+.socialicons {
   margin: 33px 20px 0 0;
   display: flex;
   list-style: none;
