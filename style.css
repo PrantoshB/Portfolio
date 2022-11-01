@@ -298,7 +298,7 @@ textarea:focus {
 }
 
 .socialicons {
-  margin: 33px 20px 0px 0px;
+  margin: 33px 20px 0 0;
   display: flex;
   list-style: none;
   justify-content: space-between;
