@@ -1,21 +1,8 @@
 {
-  "name": "portfolio",
+  "name": "prantosh-portfolio",
   "version": "1.0.0",
-  "description": "## Built With",
+  "description": "Professional Portfolio using HTML, CSS",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "hint": "^7.1.3",
-    "stylelint": "^13.13.1",
-    "stylelint-config-standard": "^21.0.0",
-    "stylelint-csstree-validator": "^1.9.0",
-    "stylelint-scss": "^3.21.0"
-  },
   "dependencies": {
     "abab": "^2.0.6",
     "acorn": "^8.8.1",
@@ -510,10 +497,23 @@
     "yauzl": "^2.10.0",
     "zwitch": "^1.0.5"
   },
+  "devDependencies": {
+    "hint": "^7.1.3",
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^21.0.0",
+    "stylelint-csstree-validator": "^1.9.0",
+    "stylelint-scss": "^3.21.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/PrantoshB/Portfolio.git"
   },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/PrantoshB/Portfolio/issues"
   },
