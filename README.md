@@ -13,6 +13,9 @@ Professional Portfolio using HTML, CSS
 - Technologies used: 
     Git, GitHub, Linters
     
+## Live Demo
+[Live Demo Link](https://prantoshb.github.io/Portfolio/)
+    
     
 ## Getting Started
 To get a local copy up follow these simple example steps.
@@ -20,8 +23,12 @@ To get a local copy up follow these simple example steps.
 # Prerequisites
 GIT
 Setup
-Open a terminal or a git bash in the desired directory and run https://github.com/PrantoshB/Portfolio.git    
+Open a terminal or a git bash in the desired directory and run 
 
+git clone https://github.com/PrantoshB/Portfolio.git</br> 
+cd Portfolio</br> 
+Open within an IDE</br> 
+Open with the live server</br> 
 
 
 ## Author
