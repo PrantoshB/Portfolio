@@ -13,6 +13,10 @@ body {
   cursor: pointer;
 }
 
+.desktopmenu {
+  display: none;
+}
+
 .bar1,
 .bar2,
 .bar3 {
@@ -68,24 +72,24 @@ body {
   background-repeat: no-repeat;
 }
 
-.project h1 {
+.project h2 {
   padding: 0 0 30px 16px;
 }
 
 .work_cards {
   width: 100%;
   justify-content: center;
-  background-color: #1a2236;
   display: grid;
   grid-template-columns: 1fr;
 }
 
 .work_image {
-  min-width: 100%;
+  width: 100%;
   margin-top: -2px;
 }
 
 .workdetails {
+  background-color: #1a2236;
   height: 156px;
   margin: 0;
   padding: 5px 0 16px 20px;
@@ -303,4 +307,356 @@ textarea:focus {
   list-style: none;
   justify-content: space-between;
   margin-left: -20px;
+}
+
+@media screen and (min-width: 768px) {
+  .menu-container {
+    display: none;
+  }
+
+  body {
+    background: white;
+  }
+
+  .header {
+    background: none;
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    border-bottom: 1px solid #dddfe6;
+  }
+
+  .desktopmenu {
+    display: flex;
+  }
+
+  .bgimage {
+    display: none;
+  }
+
+  #hello {
+    margin-left: 160px;
+    padding: 0;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+  }
+
+  .infoimg {
+    height: 830px;
+    width: 50%;
+    background-image: url(assets/image-geometry_1.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top right;
+    padding-right: 0;
+  }
+
+  .desktop_about {
+    background-image: url(assets/image_dots.svg);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-size: initial;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+  }
+
+  .desktopmenu ul {
+    display: flex;
+    list-style: none;
+  }
+
+  .desktopmenu li {
+    margin: 20px 50px;
+    font-size: 16px;
+  }
+
+  .footer-list ul {
+    align-items: center;
+  }
+
+  .footer-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-list li {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .socialicons ul li {
+    margin-right: 50px;
+  }
+
+  .desktopmenu li:hover {
+    text-decoration: underline;
+  }
+
+  .title {
+    font-size: 6rem;
+    line-height: 1;
+    margin-top: 15vh;
+  }
+
+  .about {
+    margin: 60px 0;
+    font-size: 14px;
+  }
+
+  .collab-btn,
+  .cv-btn {
+    align-items: center;
+    width: 254px;
+    height: 70px;
+  }
+
+  .firstproject {
+    margin-left: 100px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 200px;
+  }
+
+  .firstproject .work_cards {
+    width: 70%;
+    margin-left: auto;
+    background-image: url(assets/image_dots.svg);
+    background-position: top left;
+    background-repeat: no-repeat;
+  }
+
+  .firstproject .workdetails {
+    height: 250px;
+    width: 81.2%;
+    margin-top: -250px;
+    margin-left: auto;
+  }
+
+  .workdetails button {
+    width: 12vw;
+    font-size: 14px;
+    background: white;
+    color: #1a2236;
+  }
+
+  .firstproject .work_image {
+    margin-left: auto;
+    width: 83%;
+  }
+
+  .firstproject_name {
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    margin-left: -11rem;
+    width: 40%;
+    height: auto;
+    margin-top: -50px;
+  }
+
+  .firstproject h2 {
+    transform: rotate(270deg);
+  }
+
+  .sec_third {
+    width: 98vw;
+    display: flex;
+    flex-direction: row;
+  }
+
+  #card2 {
+    height: 350px;
+    width: 65%;
+    background-image: url(assets/image-geometry_2-1.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+  }
+
+  #card2 img {
+    margin-top: 80px;
+    width: 47.5%;
+  }
+
+  #card3 {
+    margin-left: auto;
+    width: 35%;
+  }
+
+  #card3 .workdetails {
+    width: 98.9%;
+    height: 195px;
+    margin-top: -260px;
+  }
+
+  .four_five {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    width: 100%;
+    height: 71vh;
+  }
+
+  #card4 {
+    width: 50%;
+    background-image: url(assets/image-geometry_3.svg);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+  }
+
+  #card4 img {
+    width: 84.9%;
+    margin-top: -84px;
+    margin-left: auto;
+  }
+
+  #card5 {
+    width: 69%;
+  }
+
+  #card5 img {
+    height: auto;
+  }
+
+  .lastcard {
+    width: 87.5vw;
+    display: flex;
+  }
+
+  #card2 .workdetails {
+    display: none;
+  }
+
+  #card4 .workdetails {
+    display: none;
+  }
+
+  #card5 .workdetails {
+    display: none;
+  }
+
+  #card6 .workdetails {
+    display: none;
+  }
+
+  .lastbg {
+    width: 95%;
+    background: url(assets/image-geometry_5.svg) top left no-repeat, url(assets/image-geometry_4.svg) top right no-repeat;
+  }
+
+  #card6 {
+    width: 50%;
+  }
+
+  .midimage {
+    display: grid;
+    height: 47vh;
+    background-size: 100% 100%;
+  }
+
+  #about-section {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin-right: 100px;
+    margin-top: 210px;
+    margin-bottom: 150px;
+  }
+
+  .about-me {
+    width: 40%;
+  }
+
+  .boxinfo {
+    margin: 0;
+  }
+
+  .wrapbox {
+    margin-left: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .boximage {
+    background-image: url(assets/image_dots_with_teal.svg);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+  }
+
+  .footsection {
+    padding-left: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .socialicons {
+    margin: 0 160px;
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .footer-head {
+    display: none;
+  }
+
+  .formbody .cv-btn {
+    align-self: center;
+    text-align: center;
+  }
+
+  .forbackground {
+    background: url(assets/image-geometry_6.svg) left top no-repeat, url(assets/image-geometry_7.svg) right bottom no-repeat;
+    background-color: #f9f9fa;
+  }
+
+  .forbackground .formbody {
+    margin: auto;
+    text-align: justify;
+    width: 35vw;
+  }
+
+  .name_and_email {
+    width: 35vw;
+    display: flex;
+  }
+
+  .name_and_email .inputfield {
+    height: auto;
+    border: none;
+    background: transparent;
+    margin-bottom: 20px;
+  }
+
+  .inputfield label {
+    padding: 0;
+  }
+
+  #mail {
+    width: 19.3%;
+  }
+
+  #name {
+    width: 240px;
+  }
+
+  input {
+    padding: 20px 0;
+    width: 281px;
+    margin-top: 8px;
+    border-radius: 4px;
+    border: 1px solid rgb(210, 212, 212);
+    text-indent: 16px;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .project {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+  }
 }
