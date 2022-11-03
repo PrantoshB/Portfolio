@@ -388,6 +388,10 @@ textarea:focus {
     flex-direction: column;
   }
 
+  .socialicons ul li {
+    margin-right: 50px;
+  }
+
   .desktopmenu li:hover {
     text-decoration: underline;
   }
@@ -559,8 +563,8 @@ textarea:focus {
   }
 
   .socialicons {
-    margin: 0 50px;
-    width: 15%;
+    margin: 0 160px;
+    width: 30%;
     display: flex;
     justify-content: space-around;
   }
