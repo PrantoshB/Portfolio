@@ -1,6 +1,6 @@
 * {
   margin: 0;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 body {
@@ -39,7 +39,7 @@ body {
 
 .title {
   color: #1a2236;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-size: 50px;
   font-weight: 400;
   margin-bottom: 0;
@@ -63,6 +63,7 @@ body {
   padding: 12px 30px;
   width: 100%;
   border: none;
+  transition-duration: 1s;
 }
 
 .bgimage {
@@ -135,6 +136,7 @@ body {
   padding: 9px 20px;
   border: 1px solid white;
   margin-top: 10px;
+  transition: all 1s;
 }
 
 .cv-btn {
@@ -149,6 +151,7 @@ body {
   padding: 12px 30px;
   width: 100%;
   border: none;
+  transition-duration: 1s;
 }
 
 .cv-btn span {
@@ -193,9 +196,17 @@ body {
   background-position: bottom right;
 }
 
+.seeproject i {
+  transition-duration: 1s;
+}
+
 .seeproject:hover {
   color: #1a2236;
   background: white;
+}
+
+.seeproject:hover i {
+  margin-right: 10px;
 }
 
 .lang {
@@ -259,7 +270,7 @@ textarea {
   box-sizing: border-box;
   border: 1px solid #dfdfe0;
   border-radius: 4px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 input,
@@ -270,7 +281,7 @@ textarea:focus {
 }
 
 .inputfield {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   height: 52px;
   overflow: hidden;
   width: 100%;
@@ -307,6 +318,18 @@ textarea:focus {
   list-style: none;
   justify-content: space-between;
   margin-left: -20px;
+}
+
+.collab-btn:hover {
+  background: white;
+  color: #1a2236;
+  border: 1px solid #1a2236;
+}
+
+.cv-btn:hover {
+  background: white;
+  color: #1a2236;
+  border: 1px solid #1a2236;
 }
 
 @media screen and (min-width: 768px) {
@@ -436,13 +459,6 @@ textarea:focus {
     margin-left: auto;
   }
 
-  .workdetails button {
-    width: 12vw;
-    font-size: 14px;
-    background: white;
-    color: #1a2236;
-  }
-
   .firstproject .work_image {
     margin-left: auto;
     width: 83%;
@@ -543,7 +559,9 @@ textarea:focus {
 
   .lastbg {
     width: 95%;
-    background: url(assets/image-geometry_5.svg) top left no-repeat, url(assets/image-geometry_4.svg) top right no-repeat;
+    background:
+      url(assets/image-geometry_5.svg) top left no-repeat,
+      url(assets/image-geometry_4.svg) top right no-repeat;
   }
 
   #card6 {
@@ -610,7 +628,9 @@ textarea:focus {
   }
 
   .forbackground {
-    background: url(assets/image-geometry_6.svg) left top no-repeat, url(assets/image-geometry_7.svg) right bottom no-repeat;
+    background:
+      url(assets/image-geometry_6.svg) left top no-repeat,
+      url(assets/image-geometry_7.svg) right bottom no-repeat;
     background-color: #f9f9fa;
   }
 
@@ -651,7 +671,7 @@ textarea:focus {
     border-radius: 4px;
     border: 1px solid rgb(210, 212, 212);
     text-indent: 16px;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
   }
 
   .project {
