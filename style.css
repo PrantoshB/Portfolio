@@ -459,13 +459,6 @@ textarea:focus {
     margin-left: auto;
   }
 
-  /* .workdetails button {
-    width: 12vw;
-    font-size: 14px;
-    background: white;
-    color: #1a2236;
-  } */
-
   .firstproject .work_image {
     margin-left: auto;
     width: 83%;
@@ -566,7 +559,8 @@ textarea:focus {
 
   .lastbg {
     width: 95%;
-    background: url(assets/image-geometry_5.svg) top left no-repeat,
+    background:
+      url(assets/image-geometry_5.svg) top left no-repeat,
       url(assets/image-geometry_4.svg) top right no-repeat;
   }
 
@@ -634,7 +628,8 @@ textarea:focus {
   }
 
   .forbackground {
-    background: url(assets/image-geometry_6.svg) left top no-repeat,
+    background:
+      url(assets/image-geometry_6.svg) left top no-repeat,
       url(assets/image-geometry_7.svg) right bottom no-repeat;
     background-color: #f9f9fa;
   }
