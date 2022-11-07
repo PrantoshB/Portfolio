@@ -14,7 +14,8 @@ Professional Portfolio using HTML, CSS
     Git, GitHub, Linters
     
 ## Live Demo
-[Live Demo Link](https://prantoshb.github.io/Portfolio/)
+To view this project live, please visit this [page](https://prantoshb.github.io/Portfolio/)
+
     
     
 ## Getting Started
