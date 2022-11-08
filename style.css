@@ -6,7 +6,10 @@
 body {
   background-color: #f9f9fa;
 }
-
+a{
+  text-decoration: none;
+  color: inherit;
+}
 .menu-container {
   padding-right: 16px;
   display: inline-block;
