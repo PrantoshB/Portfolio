@@ -46,12 +46,6 @@ Open with the live server</br>
 - Twitter: [@twitterhandle](https://twitter.com/Lee06785586)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/leehaney-george-0a4a51178/)
 
-👤 **Diana Geki**
-
-- GitHub: [@PrantoshB](https://github.com/DianaBeki)
-- Twitter: [@prantalks](https://github.com/DianaBeki#)
-- Instagram: [Prantosh Biswas](https://github.com/DianaBeki#)
-
 
 ## Show your support
 
