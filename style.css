@@ -54,10 +54,10 @@ a {
   color: #1a2236;
 }
 
-.info-section {
-  padding: 30px 16px 30px 16px;
+.info_content {
   display: flex;
   flex-direction: column;
+  margin: 0 16px;
 }
 
 .collab-btn {
@@ -71,22 +71,31 @@ a {
   transition-duration: 1s;
 }
 
-.bgimage {
-  background-image: url(assets/image_geometry_2.svg);
-  height: 200px;
-  background-size: contain;
-  background-repeat: no-repeat;
+.mobilebg_info {
+  width: 100%;
+  margin: 40px 0;
+}
+
+.desktopbg_info {
+  display: none;
 }
 
 .project h2 {
   padding: 0 0 30px 16px;
 }
 
-.work_cards {
-  width: 100%;
-  justify-content: center;
+.project {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: auto;
+}
+
+.secondimage {
+  display: none;
+}
+
+.work_cards {
+  display: flex;
+  flex-direction: column;
 }
 
 .work_image {
@@ -110,6 +119,11 @@ a {
   font-weight: 300;
   padding: 0;
   margin: 0;
+}
+
+.about-me,
+.wrapbox {
+  margin: 40px 16px;
 }
 
 .language_used {
@@ -337,6 +351,8 @@ textarea:focus {
   border: 1px solid #1a2236;
 }
 
+/* Desktop Style Starts from here */
+
 @media screen and (min-width: 768px) {
   .menu-container {
     display: none;
@@ -358,36 +374,31 @@ textarea:focus {
     display: flex;
   }
 
-  .bgimage {
-    display: none;
-  }
-
   #hello {
-    margin-left: 160px;
-    padding: 0;
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: 50% 50%;
   }
 
-  .infoimg {
-    height: 830px;
-    width: 50%;
-    background-image: url(assets/image-geometry_1.svg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: top right;
-    padding-right: 0;
-  }
-
-  .desktop_about {
+  .info_content {
     background-image: url(assets/image_dots.svg);
     background-position: bottom right;
     background-repeat: no-repeat;
-    background-size: initial;
+
+    /* background-size: initial; */
     display: flex;
     flex-direction: column;
-    width: 50%;
+    justify-content: center;
+    padding: 0 90px 0 160px;
+  }
+
+  .mobilebg_info {
+    display: none;
+  }
+
+  .desktopbg_info {
+    display: flex;
+    width: 100%;
+    height: 100%;
   }
 
   .desktopmenu ul {
@@ -420,10 +431,6 @@ textarea:focus {
     margin-right: 50px;
   }
 
-  .desktopmenu li:hover {
-    text-decoration: underline;
-  }
-
   .title {
     font-size: 6rem;
     line-height: 1;
@@ -442,141 +449,88 @@ textarea:focus {
     height: 70px;
   }
 
+  button:hover {
+    cursor: pointer;
+  }
+
+  .workdetails {
+    margin-top: -175px;
+    opacity: 0;
+    transition: opacity, 0.2ms, ease-in, 1200ms;
+  }
+
+  .workdetails:hover {
+    opacity: 1;
+    cursor: pointer;
+  }
+
+  .project {
+    margin-top: 210px;
+  }
+
   .firstproject {
-    margin-left: 100px;
-    display: flex;
-    flex-direction: row;
-    margin-top: 200px;
-  }
-
-  .firstproject .work_cards {
-    width: 70%;
-    margin-left: auto;
-    background-image: url(assets/image_dots.svg);
-    background-position: top left;
-    background-repeat: no-repeat;
-  }
-
-  .firstproject .workdetails {
-    height: 250px;
-    width: 81.2%;
-    margin-top: -250px;
-    margin-left: auto;
-  }
-
-  .firstproject .work_image {
-    margin-left: auto;
-    width: 83%;
+    display: grid;
+    grid-template-columns: 40% auto;
   }
 
   .firstproject_name {
+    background-image: url(assets/image_dots.svg);
     background-repeat: no-repeat;
-    background-position: bottom right;
-    margin-left: -11rem;
-    width: 40%;
-    height: auto;
-    margin-top: -50px;
+    background-position: top right;
   }
 
-  .firstproject h2 {
-    transform: rotate(270deg);
+  .firstproject_name h2 {
+    transform: rotate(-90deg);
+  }
+
+  .seeproject {
+    width: 13vw;
   }
 
   .sec_third {
-    width: 98vw;
+    display: grid;
+    grid-template-columns: 35% 35% 30%;
+  }
+
+  .secondimage {
     display: flex;
-    flex-direction: row;
+    align-items: flex-end;
+  }
+
+  .sec_back_image {
+    width: 100%;
   }
 
   #card2 {
-    height: 350px;
-    width: 65%;
-    background-image: url(assets/image-geometry_2-1.svg);
-    background-repeat: no-repeat;
-    background-position: right;
-  }
-
-  #card2 img {
-    margin-top: 80px;
-    width: 47.5%;
+    margin-top: auto;
+    margin-bottom: -3px;
   }
 
   #card3 {
-    margin-left: auto;
-    width: 35%;
-  }
-
-  #card3 .workdetails {
-    width: 98.9%;
-    height: 195px;
-    margin-top: -260px;
+    margin-top: 2.5vh;
   }
 
   .four_five {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-between;
-    width: 100%;
-    height: 71vh;
+    display: grid;
+    grid-template-columns: 58% 12% 30%;
+    background: url('assets/image-geometry_3.svg') no-repeat bottom right;
   }
 
-  #card4 {
-    width: 50%;
-    background-image: url(assets/image-geometry_3.svg);
-    background-repeat: no-repeat;
-    background-position: bottom right;
-  }
-
-  #card4 img {
-    width: 84.9%;
-    margin-top: -84px;
-    margin-left: auto;
+  #card4 .work_image {
+    margin-bottom: -4px;
   }
 
   #card5 {
-    width: 69%;
-  }
-
-  #card5 img {
-    height: auto;
+    margin-top: -10.8vh;
   }
 
   .lastcard {
-    width: 87.5vw;
-    display: flex;
-  }
-
-  #card2 .workdetails {
-    display: none;
-  }
-
-  #card4 .workdetails {
-    display: none;
-  }
-
-  #card5 .workdetails {
-    display: none;
-  }
-
-  #card6 .workdetails {
-    display: none;
+    display: grid;
+    grid-template-columns: 58% 32%;
   }
 
   .lastbg {
-    width: 95%;
-    background:
-      url(assets/image-geometry_5.svg) top left no-repeat,
-      url(assets/image-geometry_4.svg) top right no-repeat;
-  }
-
-  #card6 {
-    width: 50%;
-  }
-
-  .midimage {
-    display: grid;
-    height: 47vh;
-    background-size: 100% 100%;
+    background: url('assets/image-geometry_5.svg') no-repeat top left, url('assets/image-geometry_4.svg') no-repeat top right;
   }
 
   #about-section {
@@ -666,7 +620,7 @@ textarea:focus {
   }
 
   #name {
-    width: 240px;
+    width: 18%;
   }
 
   input {
@@ -677,11 +631,5 @@ textarea:focus {
     border: 1px solid rgb(210, 212, 212);
     text-indent: 16px;
     font-family: "Poppins", sans-serif;
-  }
-
-  .project {
-    display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: auto;
   }
 }
