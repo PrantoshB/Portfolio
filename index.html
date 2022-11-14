@@ -34,21 +34,32 @@
 
       <div class="desktopmenu">
         <ul>
-          <li><a href="#"> Hello</a></li>
-          <li><a href="#"> Portfolio</a></li>
-          <li><a href="#"> About</a></li>
-          <li><a href="#"> Contact</a></li>
+          <li><a href="#hello"> Hello</a></li>
+          <li><a href="#portfolio-section"> Portfolio</a></li>
+          <li><a href="#about-section"> About</a></li>
+          <li><a href="#contact"> Contact</a></li>
         </ul>
       </div>
 
-      <div class="menu-container"
-        onclick="myFunction(this)">
-        <div class="bar1"></div>
-        <div class="bar2"></div>
-        <div class="bar3"></div>
-      </div>
+
+      <img onclick="onClickMenu()" class="mobile_menu_icon" src="assets/ic_menu.svg" alt="menu_icon">
+
+      <img onclick="onClickClose()" class="mobile_close_icon" src="assets/Union.svg" alt="menu_icon">
     </nav>
+
+  
   </header>
+  <div class="mobilemenu">
+    <ul>
+      <li><a id="hellolink" href="#hello"> Hello</a></li>
+      <li><a id="portfoliolink" href="#portfolio-section"> Portfolio</a></li>
+      <li><a id="aboutlink" href="#about-section"> About</a></li>
+      <li><a id="contactlink" href="#contact"> Contact</a></li>
+    </ul>
+  </div>
+  <main>
+  
+
   <section class="info-section"
     id="hello">
     <div class="info_content">
@@ -77,7 +88,7 @@
 
   </section>
 
-  <section class="project">
+  <section class="project" id="portfolio-section">
 
     <div class="firstproject">
       <div class="firstproject_name">
@@ -289,7 +300,7 @@
   <footer>
     <div class="footer-head"></div>
 
-    <div class="forbackground">
+    <div class="forbackground" id="contact">
       <div class="formbody">
         <h2 class="title">Get Started</h2>
         <p class="about">
@@ -375,6 +386,9 @@
       </ul>
     </div>
   </footer>
+
+</main>  
+  <script src="script.js"></script>
 </body>
 
 </html>
