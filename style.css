@@ -12,9 +12,8 @@ a {
   color: inherit;
 }
 
-.menu-container {
+.mobile_menu_icon {
   padding-right: 16px;
-  display: inline-block;
   cursor: pointer;
 }
 
@@ -22,17 +21,53 @@ a {
   display: none;
 }
 
-.bar1,
-.bar2,
-.bar3 {
-  width: 35px;
-  height: 3px;
-  background-color: #333;
-  margin: 6px 0;
+.mobile_close_icon {
+  display: none;
+  padding-right: 18px;
+  margin-top: -25px;
+}
+
+.mobilemenu {
+  z-index: 2;
+  width: 100vw;
+  height: 85vh;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: url(assets/image_geometry_menu_2.svg) no-repeat bottom;
+  background-size: contain;
+}
+
+.mobilemenu ul {
+  margin-top: -120px;
+}
+
+.language_used li {
+  color: #1a2236;
+  background: #98dede;
+  padding: 7px 10px;
+  width: auto;
+  list-style: none;
+  text-align: center;
+  margin-right: 10px;
+}
+
+.boxinfo li {
+  margin-left: -22px;
+  font-weight: 600;
+}
+
+.mobilemenu ul li {
+  list-style: none;
+  text-align: center;
+  margin-top: 40px;
+  margin-left: -30px;
+  font-size: 16px;
 }
 
 .header {
-  height: 74px;
+  height: 75px;
   background-image: url(assets/image_geometry_1.svg);
   background-repeat: no-repeat;
   background-size: contain;
@@ -50,6 +85,10 @@ a {
   margin-bottom: 0;
 }
 
+.hide {
+  display: none;
+}
+
 .about {
   color: #1a2236;
 }
@@ -57,7 +96,7 @@ a {
 .info_content {
   display: flex;
   flex-direction: column;
-  margin: 0 16px;
+  margin: 50px 16px;
 }
 
 .collab-btn {
@@ -134,16 +173,6 @@ a {
   font-weight: 300;
 }
 
-.language_used li {
-  color: #1a2236;
-  background: #98dede;
-  padding: 7px 10px;
-  width: auto;
-  list-style: none;
-  text-align: center;
-  margin-right: 10px;
-}
-
 .seeproject {
   align-items: center;
   display: flex;
@@ -187,11 +216,6 @@ a {
 .boxinfo h3 {
   font-weight: 800;
   margin-bottom: 20px;
-}
-
-.boxinfo li {
-  margin-left: -22px;
-  font-weight: 600;
 }
 
 #languages {
@@ -404,6 +428,10 @@ textarea:focus {
   .desktopmenu ul {
     display: flex;
     list-style: none;
+  }
+
+  .mobilemenu {
+    display: none;
   }
 
   .desktopmenu li {
@@ -621,6 +649,10 @@ textarea:focus {
 
   #name {
     width: 18%;
+  }
+
+  .mobile_menu_icon {
+    display: none;
   }
 
   input {
