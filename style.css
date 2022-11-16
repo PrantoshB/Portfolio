@@ -59,8 +59,6 @@ button:hover {
 
 .language_used_modal li {
   color: #1a2236;
-
-  /* background: #98dede; */
   border: 0.5px solid #1a2236;
   padding: 7px 10px;
   width: auto;
@@ -78,6 +76,7 @@ button:hover {
   border: 1px solid #1a2236;
   background: transparent;
   padding: 12px 80px;
+  margin-bottom: 30px;
 }
 
 .modalbox button:hover {
@@ -223,8 +222,6 @@ button:hover img {
   height: 100vh;
   background: white;
   padding: 50px 20px;
-
-  /* display: none; */
   flex-direction: column;
   justify-content: space-between;
 }
@@ -244,8 +241,6 @@ button:hover img {
 
 .close-modal {
   width: 20px;
-
-  /* position: absolute; */
   margin-left: 83vw;
   margin-bottom: 18px;
 }
@@ -582,8 +577,6 @@ textarea:focus {
   .modalbox {
     height: auto;
     padding: 3%;
-
-    /* display: none !important; */
     width: 75vw;
     margin: 5% auto;
   }
