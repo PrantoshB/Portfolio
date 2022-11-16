@@ -14,8 +14,7 @@
   <link rel="preconnect"
     href="https://fonts.gstatic.com"
     crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
-    rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto&display=swap"
     rel="stylesheet" />
   <link rel="stylesheet"
@@ -95,46 +94,13 @@
         <h2 class="title">Projects</h2>
       </div>
 
-      <div class="work_cards">
-        <img class="work_image"
-          src="assets/Work1.svg"
-          alt="Project number 1" />
-        <div class="workdetails">
-          <h3 class="work_title">Project name goes here</h3>
-          <ul class="language_used">
-            <li>HTML/CSS</li>
-            <li>Ruby on Rails</li>
-            <li>JavaScript</li>
-          </ul>
-          <button class="seeproject"
-            type="button">
-            See this Project <i class="fa fa-arrow-right"></i>
-          </button>
-        </div>
+      <div class="work_cards" id="card1">
       </div>
     </div>
-
-
 
     <div class="sec_third">
       <div class="work_cards"
         id="card2">
-        <img class="work_image"
-          id="img2"
-          src="assets/Work2.svg"
-          alt="Project number 2" />
-        <div class="workdetails">
-          <h3 class="work_title">Project name goes here</h3>
-          <ul class="language_used">
-            <li>HTML/CSS</li>
-            <li>Ruby on Rails</li>
-            <li>JavaScript</li>
-          </ul>
-          <button class="seeproject"
-            type="button">
-            See this Project <i class="fa fa-arrow-right"></i>
-          </button>
-        </div>
       </div>
 
       <div class="secondimage">
@@ -145,22 +111,6 @@
 
       <div class="work_cards"
         id="card3">
-        <img class="work_image"
-          id="img3"
-          src="assets/Work3.svg"
-          alt="Project number 3" />
-        <div class="workdetails">
-          <h3 class="work_title">Project name goes here</h3>
-          <ul class="language_used">
-            <li>HTML/CSS</li>
-            <li>Ruby on Rails</li>
-            <li>JavaScript</li>
-          </ul>
-          <button class="seeproject"
-            type="button">
-            See this Project <i class="fa fa-arrow-right"></i>
-          </button>
-        </div>
       </div>
     </div>
 
@@ -168,42 +118,12 @@
     <div class="four_five">
       <div class="work_cards"
         id="card4">
-        <img class="work_image"
-          src="assets/Work2.png"
-          alt="Project number 4" />
-        <div class="workdetails">
-          <h3 class="work_title">Project name goes here</h3>
-          <ul class="language_used">
-            <li>HTML/CSS</li>
-            <li>Ruby on Rails</li>
-            <li>JavaScript</li>
-          </ul>
-          <button class="seeproject"
-            type="button">
-            See this Project <i class="fa fa-arrow-right"></i>
-          </button>
-        </div>
       </div>
 
       <div></div>
 
       <div class="work_cards"
         id="card5">
-        <img class="work_image"
-          src="assets/Work4.svg"
-          alt="Project number 5" />
-        <div class="workdetails">
-          <h3 class="work_title">Project name goes here</h3>
-          <ul class="language_used">
-            <li>HTML/CSS</li>
-            <li>Ruby on Rails</li>
-            <li>JavaScript</li>
-          </ul>
-          <button class="seeproject"
-            type="button">
-            See this Project <i class="fa fa-arrow-right"></i>
-          </button>
-        </div>
       </div>
     </div>
 
@@ -212,30 +132,10 @@
       <div class="lastbg"></div>
       <div class="work_cards"
         id="card6">
-        <img class="work_image"
-          src="assets/Work6.svg"
-          alt="Project number 6" />
-        <div class="workdetails">
-          <h3 class="work_title">Project name goes here</h3>
-          <ul class="language_used">
-            <li>HTML/CSS</li>
-            <li>Ruby on Rails</li>
-            <li>JavaScript</li>
-          </ul>
-          <button class="seeproject"
-            type="button">
-            See this Project <i class="fa fa-arrow-right"></i>
-          </button>
-        </div>
       </div>
 
     </div>
-
-
-
-
   </section>
-
 
   <section class="info-section"
     id="about-section">
@@ -387,7 +287,32 @@
     </div>
   </footer>
 
+  
 </main>  
+
+<div class="modal-container">
+  <div class="modalbox">
+    <img onclick="CloseModal()" class="close-modal" src="assets/Union.svg" alt="closebutton">
+    <h3 class="modaltitle"></h3>
+    <ul class="language_used_modal">
+      
+    </ul>
+    <img class="popup-image" alt="Project Popup Image">
+    <p class="pop-up-description"></p>
+    <div class="modal-button-div">
+  
+  <a  class="seelive"><button type="button">See live <img class="button-image" src="assets/link.svg" alt="Link"> </button></a>    
+
+    <a  class="seesource"><button type="button">See source <img class="button-image" src="assets/ic_github_white.svg" alt="github"></button></a>  
+    </div>
+      <div class="navigation">
+        <div class="previous"><img src="assets/ic_arrow_left.svg" alt="left arrow"> <span> Previous project</span></div>
+        <div class="next"><span>Next project </span> <img src="assets/ic_arrow_right-6.svg" alt="left arrow"></div>
+      </div>
+  </div>
+</div>
+
+
   <script src="script.js"></script>
 </body>
 

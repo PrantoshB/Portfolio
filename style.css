@@ -12,6 +12,10 @@ a {
   color: inherit;
 }
 
+button:hover {
+  cursor: pointer;
+}
+
 .mobile_menu_icon {
   padding-right: 16px;
   cursor: pointer;
@@ -51,6 +55,42 @@ a {
   list-style: none;
   text-align: center;
   margin-right: 10px;
+}
+
+.language_used_modal li {
+  color: #1a2236;
+
+  /* background: #98dede; */
+  border: 0.5px solid #1a2236;
+  padding: 7px 10px;
+  width: auto;
+  list-style: none;
+  text-align: center;
+  margin-right: 10px;
+}
+
+.modalbox button {
+  margin-left: 6vw !important;
+  width: 85%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border: 1px solid #1a2236;
+  background: transparent;
+  padding: 12px 80px;
+}
+
+.modalbox button:hover {
+  background-color: #1a2236;
+  color: white;
+}
+
+.navigation {
+  display: none;
+}
+
+button:hover img {
+  filter: invert(87%) sepia(90%) saturate(1%) hue-rotate(189deg) brightness(110%) contrast(97%);
 }
 
 .boxinfo li {
@@ -135,7 +175,6 @@ a {
 
 .work_image {
   width: 100%;
-  margin-top: -2px;
 }
 
 .workdetails {
@@ -167,6 +206,56 @@ a {
   flex-direction: row;
   font-size: 12px;
   font-weight: 300;
+}
+
+.modal-container {
+  margin: 0;
+  background: #1a2236;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow-y: scroll;
+  display: none;
+}
+
+.modalbox {
+  height: 100vh;
+  background: white;
+  padding: 50px 20px;
+
+  /* display: none; */
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.language_used_modal {
+  margin: 20px 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  font-size: 12px;
+  font-weight: 300;
+}
+
+.popup-image {
+  max-width: 100%;
+}
+
+.close-modal {
+  width: 20px;
+
+  /* position: absolute; */
+  margin-left: 83vw;
+  margin-bottom: 18px;
+}
+
+.modalbox p {
+  margin: 30px 0;
+}
+
+.button-image {
+  width: 20px;
 }
 
 .seeproject {
@@ -486,8 +575,70 @@ textarea:focus {
     height: 70px;
   }
 
-  button:hover {
-    cursor: pointer;
+  .modal-container {
+    margin: 0;
+  }
+
+  .modalbox {
+    height: auto;
+    padding: 3%;
+
+    /* display: none !important; */
+    width: 75vw;
+    margin: 5% auto;
+  }
+
+  .modalbox .popup-image {
+    width: 100%;
+  }
+
+  .modalbox h3 {
+    width: 60vw;
+    font-size: 60px;
+  }
+
+  .close-modal {
+    margin-bottom: -7vh;
+    margin-left: 73.5vw;
+  }
+
+  .language_used_modal {
+    margin: 40px 0;
+  }
+
+  .modalbox p {
+    margin: 40px 15vw;
+  }
+
+  .modal-button-div {
+    margin: 20px 15vw;
+    display: flex;
+  }
+
+  .modalbox a button {
+    font-size: 18px;
+    width: 90%;
+    margin: 0 3vw 0 0 !important;
+    justify-content: center;
+  }
+
+  .modalbox button img {
+    margin-left: 15px;
+  }
+
+  .navigation {
+    margin: 110px 15vw;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .navigation div {
+    display: flex;
+    align-items: center;
+  }
+
+  .navigation span {
+    margin: 0 16px;
   }
 
   .workdetails {
