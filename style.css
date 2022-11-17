@@ -451,7 +451,7 @@ textarea:focus {
 }
 
 .collab-btn:hover {
-  background: white;
+  background: #fff;
   color: #1a2236;
   border: 1px solid #1a2236;
 }
@@ -470,7 +470,7 @@ textarea:focus {
   }
 
   body {
-    background: white;
+    background: #fff
   }
 
   .header {
