@@ -27,6 +27,11 @@ contactForm.addEventListener('input', () => {
   localStorage.setItem('userData', JSON.stringify(formData))
 })
 
+const GetDataFromLocalStorage = JSON.parse(localStorage.getItem('userData'));
+NameValue.value = GetDataFromLocalStorage.name;
+EmailValue.value = GetDataFromLocalStorage.email;
+MessageValue.value = GetDataFromLocalStorage.message; 
+
 /* eslint-disable no-unused-vars */
 function onClickMenu () {
   document.querySelector('.mobilemenu').style.display = 'flex'
