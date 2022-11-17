@@ -11,6 +11,22 @@ const ModalDescription = document.querySelector('.pop-up-description')
 const ModalSeeLive = document.querySelector('.seelive')
 const ModalSeeSource = document.querySelector('.seesource')
 
+// Local Storage
+
+const contactForm = document.querySelector('form')
+const EmailValue = document.getElementById('mail')
+const NameValue = document.getElementById('name')
+const MessageValue = document.getElementById('message')
+
+contactForm.addEventListener('input', () => {
+  const formData = {
+    name: NameValue.value,
+    email: EmailValue.value,
+    message: MessageValue.value
+  }
+  localStorage.setItem('userData', JSON.stringify(formData))
+})
+
 /* eslint-disable no-unused-vars */
 function onClickMenu () {
   document.querySelector('.mobilemenu').style.display = 'flex'
