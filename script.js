@@ -165,3 +165,20 @@ function CloseModal () {
   document.querySelector('main').style.display = 'block'
   document.querySelector('header').style.display = 'flex'
 }
+
+// Form Validation
+
+function validate () {
+  const text = document.getElementById('mail').value
+  const regx = /^([a-z\d-]+)@([a-z\d-]+)\.([a-z]{2,8})(\.[a-z]{2,8})?$/
+  document.forms[0].onsubmit = function (e) {
+    if (regx.test(text)) {
+      document.getElementById('error-message').innerHTML = 'Valid'
+      document.getElementById('error-message').style.color = 'green'
+    } else {
+      document.getElementById('error-message').innerHTML = 'Invalid !!! Please enter the email in lower case'
+      document.getElementById('error-message').style.color = 'red'
+      e.preventDefault()
+    }
+  }
+}
