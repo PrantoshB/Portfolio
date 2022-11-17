@@ -12,6 +12,13 @@ a {
   color: inherit;
 }
 
+#error-message {
+  color: red;
+  font-size: 13px;
+  margin: 10px 0;
+  font-weight: 300;
+}
+
 button:hover {
   cursor: pointer;
 }
