@@ -12,6 +12,13 @@ a {
   color: inherit;
 }
 
+#error-message {
+  color: red;
+  font-size: 13px;
+  margin: 10px 0;
+  font-weight: 300;
+}
+
 button:hover {
   cursor: pointer;
 }
@@ -137,7 +144,7 @@ button:hover img {
 .collab-btn {
   margin-top: 20px;
   background: black;
-  color: white;
+  color: #fff;
   font-size: 16px;
   padding: 12px 30px;
   width: 100%;
@@ -444,7 +451,7 @@ textarea:focus {
 }
 
 .collab-btn:hover {
-  background: white;
+  background: #fff;
   color: #1a2236;
   border: 1px solid #1a2236;
 }
@@ -463,7 +470,7 @@ textarea:focus {
   }
 
   body {
-    background: white;
+    background: #fff;
   }
 
   .header {
