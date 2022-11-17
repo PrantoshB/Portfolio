@@ -185,7 +185,7 @@
           </p>
 
          
-          <form action="https://formspree.io/f/mpznygvb" class="contact-form"  method="POST">
+          <form class="contact-form"  method="POST">
             <ul class="footer-list">
               <div class="name_and_email">
                 <li class="inputfield">
@@ -203,10 +203,10 @@
               </div>
               <p id="error-message"></p>
               <li>
-                <textarea name="message" placeholder="Enter your message here..." maxlength="500" required></textarea>
+                <textarea id="message" name="message" placeholder="Enter your message here..." maxlength="500" required></textarea>
               </li>
               <li>
-                <button onclick="validate()" class="cv-btn" type="submit">Start collaboration</button>
+                <button onclick="validate()" class="cv-btn" id="submit-btn" type="submit">Start collaboration</button>
               </li>
             </ul>
           </form>
