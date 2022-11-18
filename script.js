@@ -28,7 +28,7 @@ contactForm.addEventListener('input', () => {
 })
 
 const GetDataFromLocalStorage = JSON.parse(localStorage.getItem('userData'));
-NameValue.value = GetDataFromLocalStorage.name;
+NameValue.value = GetDataFromLocalStorage.username;
 EmailValue.value = GetDataFromLocalStorage.email;
 MessageValue.value = GetDataFromLocalStorage.message; 
 
