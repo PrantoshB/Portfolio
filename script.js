@@ -20,7 +20,7 @@ const MessageValue = document.getElementById('message')
 
 contactForm.addEventListener('input', () => {
   const formData = {
-    name: NameValue.value,
+    username: NameValue.value,
     email: EmailValue.value,
     message: MessageValue.value
   }
