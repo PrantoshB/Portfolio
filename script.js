@@ -83,28 +83,28 @@ linkPortfolio.addEventListener('click', () => {
 
 const projectsList = [
   {
-    projectTitle: 'First Project',
-    description: 'First Project Description',
-    featuredImage: 'Work1.svg',
-    technologies: ['HTML', 'Ruby on Rails', 'JavaScript'],
-    linkToLive: 'http://prantoshb.github.io/Portfolio',
-    linkToSource: 'https://github.com/PrantoshB/Portfolio'
+    projectTitle: 'RSM Mathematics Exhibition',
+    description: 'A capstone project from Microverse curriculum. Built with HTML, CSS and JavaScript',
+    featuredImage: 'RSM.png',
+    technologies: ['HTML', 'CSS', 'JavaScript'],
+    linkToLive: 'https://prantoshb.github.io/RSM-Mathematics-Exhibition-2022/',
+    linkToSource: 'https://github.com/PrantoshB/RSM-Mathematics-Exhibition-2022'
   },
   {
-    projectTitle: 'Second Project',
-    description: 'Second Project Description',
-    featuredImage: 'Work2.svg',
-    technologies: ['HTML/CSS', 'Ruby on Rails', 'JavaScript'],
-    linkToLive: 'http://prantoshb.github.io/Portfolio',
-    linkToSource: 'https://github.com/PrantoshB/Portfolio'
+    projectTitle: 'To-Do List',
+    description: 'A To-Do List built with HTML, CSS and JavaScript',
+    featuredImage: 'To-Do.png',
+    technologies: ['HTML/CSS', 'JavaScript'],
+    linkToLive: 'https://prantoshb.github.io/ToDo-List/',
+    linkToSource: 'https://github.com/PrantoshB/ToDo-List'
   },
   {
-    projectTitle: 'Third Project',
-    description: 'Third Project Description',
-    featuredImage: 'Work3.svg',
-    technologies: ['HTML/CSS', 'Ruby on Rails', 'JavaScript'],
-    linkToLive: 'http://prantoshb.github.io/Portfolio',
-    linkToSource: 'https://github.com/PrantoshB/Portfolio'
+    projectTitle: 'Awesome Books',
+    description: 'A low fidelity web application to create a book list and save it to local storage. Built with ES6, HTML, CSS.',
+    featuredImage: 'A-Books.png',
+    technologies: ['HTML/CSS', 'EcmaScript 2015'],
+    linkToLive: 'https://prantoshb.github.io/Awesome-Books-ES6/',
+    linkToSource: 'https://github.com/PrantoshB/Awesome-Books-ES6'
   },
   {
     projectTitle: 'Fourth Project',
